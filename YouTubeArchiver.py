@@ -9,7 +9,7 @@ import time
 api_service_name = "youtube"
 api_version = "v3"
 # API key
-DEVELOPER_KEY = "AIzaSyCKAECpDz77UnJZi29N2OIzNEHt5dHGpDs"
+DEVELOPER_KEY = "YOUR_KEY"
 # API client
 youtube = googleapiclient.discovery.build(
     api_service_name, api_version, developerKey = DEVELOPER_KEY)
@@ -17,10 +17,10 @@ while(1==1):
     request = youtube.search().list(
         part="id,snippet",
         type='video',
-        q="LiveOverflow",
+        q="YOUR_CHANNEL_USERNAME",
         videoDefinition='high',
         maxResults=1,
-        channelId="UClcE-kVhqyiHCcjYwcpfj9w",
+        channelId="YOUR_CHANNEL_ID",
         order="date",
         fields="items(id(videoId),snippet(publishedAt,channelId,channelTitle,title,description))"
     )

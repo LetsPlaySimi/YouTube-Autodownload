@@ -7,4 +7,4 @@
 5. Wechsle in Zeile 12, 20, 23 die in Caps geschriebenen Sachen mit deinen Daten aus
 6. Führe die Datei aus
 7. ---Auf Windows und MacOS---
-   Passe in Zeile 39 den Download-Dateipfad aus
+   Passe in Zeile 39 den Download-Dateipfad an
